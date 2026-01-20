@@ -7,11 +7,13 @@ import { getSiteContent } from "../lib/sanity";
 
 const bodoni = Bodoni_Moda({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-heading",
   display: "swap"
 });
 const manrope = Manrope({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-body",
   display: "swap"
 });
